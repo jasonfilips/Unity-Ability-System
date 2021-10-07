@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05f0390372c9b3d47b5cf66fede6f52c, type: 3}
+  m_Name: FireBallScriptable
+  m_EditorClassIdentifier: 
+  name: 
+  cooldowntime: 0
+  activeTime: 2
+  baseDamage: 10
+  elementalDamage: 0
+  manaCost: 0
+  castEffectPrefab: {fileID: 6134961739768105981, guid: e3f65b3348a3a3d4fb31856501d46b2e, type: 3}
+  hitEffectPrefab: {fileID: 0}
+  fireballVelocity: 300
+  effectDeleteTime: 3
